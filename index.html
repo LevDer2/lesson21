@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <style>
+
+        body {
+            margin: 0;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 150px;
+            background-color: aquamarine;
+        }
+        ul {
+            list-style: none;
+        }
+
+        a {
+            font-size: 22px;
+            color: rgb(133, 96, 42);
+            text-decoration: none;
+        }
+
+        .nav {
+            display: flex;
+            gap: 50px;
+        }
+
+        .contacts {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a href=""> Logo </a>
+        <nav>
+            <ul class="nav">
+                <li><a href="">новини</a></li>
+                <li><a href="">відгуки</a></li>
+                <li><a href="">контакти</a></li>
+            </ul>
+        </nav>
+        <ul class="contacts">
+            <li><a href="tel:+38063728145">+38063728145</a></li>
+            <li><a target="_blank" href="https://t.me/Levuriy">Telegram</a></li>
+        </ul>
+    </header>
+</body>
+</html>
